@@ -5,9 +5,8 @@ public static void main(String[] args) {
 
 	System.out.println("dhinesh");
 	add("Siddharthan", "Prabakaran");
-
-	System.out.println("dhinesh");
 	add(5,6);
+	add(5.5,6.5);
 }
 
 
@@ -18,11 +17,16 @@ public static void add(int i,int j)
 
 }
 
+
+public static void add(double i,double j)
+{
+	double c = i+j;
+	System.out.println(c);
+}
 public static void add(String a,String b)
 {
 	String c = a+b;
 	System.out.println(c);
 }
-
 
 }
